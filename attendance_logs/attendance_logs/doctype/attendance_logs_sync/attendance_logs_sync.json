@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-21 22:53:57.187275",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "from_date",
+  "to_date",
+  "column_break_kj2pc",
+  "sync_records"
+ ],
+ "fields": [
+  {
+   "description": "Example:01-Jan-2023",
+   "fieldname": "from_date",
+   "fieldtype": "Data",
+   "label": "From Date"
+  },
+  {
+   "description": "Example:01-Dec-2023",
+   "fieldname": "to_date",
+   "fieldtype": "Data",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "sync_records",
+   "fieldtype": "Button",
+   "label": "Sync Records"
+  },
+  {
+   "fieldname": "column_break_kj2pc",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-04-21 22:55:29.127103",
+ "modified_by": "Administrator",
+ "module": "Attendance Logs",
+ "name": "Attendance Logs Sync",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
